@@ -116,7 +116,12 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
   },
   text: { color: "white", textAlign: "center" },
-  lottie: { width: 400, height: 400 },
+  lottie: {
+    width: 400,
+    height: 400,
+    borderRadius: 200,
+    backgroundColor: 'yellow',
+  },
 });
 
 const colorFilter = [
